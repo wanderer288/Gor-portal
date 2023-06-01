@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <title>Личный кабинет пользователя</title>
+        <link rel="stylesheet" href="css1.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header class="header">
+            <img src="img/icon.png"/>
+            <div class="buttons">
+                <a href="gor2.html"><input type="button" value="Назад" class="vhod"/></a>
+            </div>
+        </header>
+
+        <div class="regr">
+            <div class="regr1">
+                <p class="textreg">Профиль</p>
+            </div>
+        </div>
+
+
+        <div class="zav">
+            <div class="zav1">
+                <p class="zavtext">Заявки</p>
+                <div class="sdd">
+                <select class="spkat">
+                    <option selected="selected">Выберите категорию</option>
+                    <option>Новая</option>
+                    <option>Решена</option>
+                </select>
+
+                <p class="ddd">статус заявки</p>
+                </div>
+            </div>
+            <div class="kab">
+                <div class="kabname">    
+                    <p class="name2">Априорова Е.М.</p>
+                    <p class="name3">Администратор</p>
+                </div>    
+                <div class="make">
+                    <a href="index1.html" class="link">Выйти</a>
+                </div>
+            </div>
+
+            <div class="flex1">
+                    <div class="application">
+                        <div class="application1">
+                            <div class="ravno">
+                                <div class="data-time">
+                                    <p class="nam">дата время</p>
+                                </div>
+
+                                <div class="data-time">
+                                    <p>Статус заявки</p>
+                                    <div class="new">
+                                        <p id="resh">новая</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="h2">
+                                <p class="h1">Название</p>
+                            </div>
+
+                            <div class="kategory">
+                                <p>Категория</p>
+                            </div>
+
+                            <div class="desc">
+                                <input placeholder="Описание" class="desc1">
+                            </div>
+
+                            <div class="dell1">
+                                <span class="delll1" onclick="tgr()">решить</span>
+                                <span class="dell2" onclick="tgr()">отказать</span>
+                            </div>
+                        </div>
+                    
+                        <div class="application2">
+                            <div class="ravno">
+                                <div class="data-time">
+                                    <p class="nam">дата/ время</p>
+                                </div>
+
+                                <div class="data-time">
+                                    <p>Статус заявки</p>
+                                    <div class="new">
+                                        <p id="resh">новая</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="h2">
+                                <p class="h1">Название</p>
+                            </div>
+
+                            <div class="kategory">
+                                <p>Категория</p>
+                            </div>
+
+                            <div class="desc">
+                                <input placeholder="Описание" class="desc1">
+                            </div>
+
+                            <div class="dell1">
+                                <span class="delll1" onclick="tgy()">решить</span>
+                                <span class="dell2" onclick="tgy()">отказать</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="xernya">
+                        <div class="kaaatt">
+                            <p class="kt">КАТЕГОРИИ</p>
+                        </div>
+                            <ul class="spsp">
+                                <li>дорожно-транспортные происшествия</li><br>
+                                <li>транспорт</li><br>
+                                <li>недвижимость и строительство</li><br>
+                                <li>,здоровье</li><br>
+                                <li>ЖКХ</li><br>
+                            </ul>
+                            <div class="bue">
+                                <input type="text" class="pkv">
+                                <button class="vbn" >добавить категорию</button>
+                            </div>
+                    </div>
+                </div>
+        </div>
+
+        <div class="prpr1">
+            <div class="prpr">
+
+                <p class="prpr2">Вы действительно решили проблему?</p>
+                <p class="prpr3">Прикрепите фото ниже в качестве подтверждения</p>
+
+                <div class="file1">
+                    <input type="file" class="file" multiple="multiple"> 
+                </div>
+
+                <div class="prpr6">
+                    <a class="prpr5" href="#">подтвердить</a>
+                </div>
+
+            </div>
+        </div>
+        <br><br>
+
+        <script src="./xxx.js"></script>
+    </body>
+</html>
